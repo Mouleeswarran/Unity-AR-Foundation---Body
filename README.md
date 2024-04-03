@@ -1,11 +1,14 @@
-Like me, most of you would have struggled to add a new 3d model to the body tracking ARkit. 
+Like me, most of you would have struggled to add a new 3d model to the body tracking ARkit.
+
 AR Foundation Sample Project: 
 https://github.com/Unity-Technologies/arfoundation-samples 
+
 This one contains a prefab, so tried to recreate the same number of joints for my rig but I encountered that the whole body is rotated 180 degrees, 
 if we change it in prefab after importing it doesn't work.
 
 Apple documentation:
 https://developer.apple.com/documentation/arkit/content_anchors/rigging_a_model_for_motion_capture
+
 this one also didn't work, after we tried to recreate the Rig finally made this one.
 I got the transform value dump of each joint and will attach here.
 
